@@ -4,18 +4,20 @@ using namespace std;
 int main()
 {
 
+    cout << "\t\t********Sky Way's Restaurant********* " << endl;
+
     // HOTEL MANAGAEMENT SYSTEM PROJECT
 
     int quant;
     int choice;
 
-    // And those variables declared for stored the quantity of hotel room and itoms
+    // And those variables declared for stored the quantity of hotel room and items
     int Qrooms = 0, Qpasta = 0, Qburger = 0, Qnoodles = 0, Qshake = 0, Qchicken = 0;
 
-    // So, now we will declared the those variables which will hold the value of sold itoms
+    // So, now we will declared the those variables which will hold the value of sold items
     int Srooms = 0, Spasta = 0, Sburger = 0, Snoodles = 0, Sshake = 0, Schicken = 0;
 
-    // Now will cleared some more variables that will contains the price of each food itoms and rooms
+    // Now will cleared some more variables that will contains the price of each food items and rooms
     int total_rooms = 0, total_pasta = 0, total_burger = 0, total_noodles = 0, total_shake = 0, total_chicken = 0;
 
     cout << "\n\n\t\t***** Quantity of items we have in hotel*****  ";
@@ -35,14 +37,14 @@ int main()
 // Now we have create to a menu to select all the items in hotel we have
 m:
     cout << "\n\n\t\t******Please Select From The Menu Options******  ";
-    cout << "\n1) Rooms                : ";
-    cout << "\n2) Pasta                : ";
-    cout << "\n3) Burger               : ";
-    cout << "\n4) Noodles              : ";
-    cout << "\n5) Shake                : ";
-    cout << "\n6) Chicken              : ";
-    cout << "\n7) Information Regarding Sales and Collections  ";
-    cout << "\n8) Exit                 : ";
+    cout << "\n1) : Rooms                : ";
+    cout << "\n2) : Pasta                : ";
+    cout << "\n3) : Burger               : ";
+    cout << "\n4) : Noodles              : ";
+    cout << "\n5) : Shake                : ";
+    cout << "\n6) : Chicken              : ";
+    cout << "\n7) : Information Regarding Sales and Collections  ";
+    cout << "\n8) : Exit                 : ";
 
     // Now we will add a variable "Choice" to choose any item in list
     cout << "\n\n\t\t******Please Select Your Choice******";
@@ -50,7 +52,7 @@ m:
     switch (choice)
     {
     case 1:
-        cout << "\n\n\t\t*****Please Enter the Room You Want *****";
+        cout << "\n\n\t\t*****Please Enter the Room/Rooms You Want *****";
         cin >> quant;
         if (Qrooms - Srooms >= quant)
         {

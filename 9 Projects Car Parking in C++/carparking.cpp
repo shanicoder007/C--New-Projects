@@ -73,7 +73,7 @@ int main()
             cout << "The total no buses = " << b << endl;
             cout << "************************************************  " << endl;
             cout << "************************************************  " << endl
-                 << endl;   
+                 << endl;
         }
         else if (u_input == 5)
         {

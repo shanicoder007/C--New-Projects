@@ -25,7 +25,7 @@ int main()
         cout << "Press b for subtraction " << endl;
         cout << "Press c for multiplication " << endl;
         cout << "Press d for division " << endl;
-        cout << "Press e for remainder " << endl;
+
         cin >> x;
 
         if (x == 'a')
@@ -49,11 +49,7 @@ int main()
             cout << "The division is  = " << num1 / num2 << endl;
             cout << "********************************  " << endl;
         }
-        else if (x == 'e')
-        {
-            cout << "The Remainder is  = " << num1 % num2 << endl;
-            cout << "********************************  " << endl;
-        }
+
         else
             cout << "Invalid Operation " << endl;
         cout << "********************************  " << endl;
